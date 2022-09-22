@@ -1,0 +1,2482 @@
+@media (min-width:320px) and (max-width:399px){
+
+    .title h1 {
+        font-size: 25px;
+        line-height: 35px;
+        width: auto;
+    }
+
+    .title p {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+    }
+
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 60%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link::after {
+display: none;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#banner-part .details {
+	text-align: center;
+}
+
+#banner-part .details h1 {
+	font-size: 28px;
+	line-height: 38px;
+	width: auto;
+}
+
+#banner-part .details p {
+	font-size: 14px;
+	line-height: 23px;
+	width: auto;
+}
+
+#banner-part .details .banner-button .button {
+	width: 180px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 44px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 50px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 65px;
+	height: 65px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 60px;
+	height: 60px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#work-part::after {
+	height: 30px;
+}
+
+#work-part .row-shape {
+	padding: 0px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .shape {
+	position: relative;
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 50px;
+}
+
+#schedule-part .row-padding {
+	padding: 0px;
+}
+
+#schedule-part .item {
+	margin-top: 30px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 40px;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+    width: auto;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 50px;
+}
+
+#graph-part .row{
+    flex-direction: column-reverse;
+}
+
+#graph-part .graph-index {
+	padding: 0px;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+    font-size: 14px;
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part .title h1 {
+	width: auto;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#about-part .details-slider .details i {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 16px;
+	line-height: 26px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 15px;
+	line-height: 25px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 10px;
+	height: 10px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 70px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -40px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 21px;
+	line-height: 34px;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 14px;
+	width: auto;
+	margin-top: 5px;
+	line-height: 24px;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 190px;
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+	margin-top: 10px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	padding-bottom: 25px !important;
+	padding: 0px;
+}
+
+#footer-part .main-item .item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 40%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+}
+
+#footer-part .main-item .item-two {
+	margin-left: 0px;
+}
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+.top-button {
+	right: 22px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
+
+
+@media (min-width:400px) and (max-width:490px){
+
+    .title h1 {
+        font-size: 28px;
+        line-height: 38px;
+        width: auto;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 26px;
+        width: auto;
+    }
+
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 60%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link::after {
+display: none;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#banner-part .details {
+	text-align: center;
+}
+
+#banner-part .details h1 {
+	font-size: 30px;
+	line-height: 40px;
+	width: auto;
+}
+
+#banner-part .details p {
+	font-size: 16px;
+	line-height: 26px;
+	width: auto;
+}
+
+#banner-part .details .banner-button .button {
+	width: 180px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 44px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 50px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 65px;
+	height: 65px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 60px;
+	height: 60px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#work-part::after {
+	height: 30px;
+}
+
+#work-part .row-shape {
+	padding: 0px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 50px;
+}
+
+#schedule-part .row-padding {
+	padding: 0px;
+}
+
+#schedule-part .item {
+	margin-top: 30px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 40px;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 50px;
+}
+
+#graph-part .row{
+    flex-direction: column-reverse;
+}
+
+#graph-part .graph-index {
+	padding: 0px;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part .title h1 {
+	width: auto;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#about-part .details-slider .details i {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 16px;
+	line-height: 26px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+#about-part .details-slider .details h5 {
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 10px;
+	height: 10px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 70px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -40px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 16px;
+	width: auto;
+	margin-top: 5px;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 190px;
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+	margin-top: 10px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	padding-bottom: 25px !important;
+	padding: 0px;
+}
+
+#footer-part .main-item .item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 40%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+}
+
+#footer-part .main-item .item-two {
+	margin-left: 0px;
+}
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+.top-button {
+	right: 22px;
+	width: 33px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 17px;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
+
+
+@media (min-width:491px) and (max-width:575px){
+
+    .title h1 {
+        font-size: 28px;
+        line-height: 38px;
+        width: auto;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 26px;
+        width: auto;
+    }
+
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 60%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link::after {
+display: none;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#banner-part .details {
+	text-align: center;
+}
+
+#banner-part .details h1 {
+	font-size: 30px;
+	line-height: 40px;
+	width: auto;
+}
+
+#banner-part .details p {
+	font-size: 16px;
+	line-height: 26px;
+	width: auto;
+}
+
+#banner-part .details .banner-button .button {
+	width: 180px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 44px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 50px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 65px;
+	height: 65px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 60px;
+	height: 60px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#work-part::after {
+	height: 40px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 50px;
+}
+
+#schedule-part .item {
+	margin-top: 30px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 40px;
+}
+
+#schedule-part .item .text h6 {
+	width: auto;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 50px;
+}
+
+#graph-part .row{
+    flex-direction: column-reverse;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part {
+	padding-bottom: 50px;
+}
+
+#about-part .title h1 {
+	width: auto;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#about-part .details-slider .details i {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 16px;
+	line-height: 26px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+#about-part .details-slider .details h5 {
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 10px;
+	height: 10px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 70px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -40px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 30px;
+	line-height: 40px;
+    text-align: center;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 16px;
+	width: auto;
+	margin-top: 5px;
+    text-align: center;
+}
+
+#helping-part .helping-box .helping-button{
+    text-align: center;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 190px;
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+	margin-top: 10px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	padding-bottom: 25px;
+}
+
+#footer-part .main-item .item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 40%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+    padding: 0 30px;
+}
+
+#footer-part .main-item .item-two {
+	margin-left: 0px;
+}
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+.top-button {
+	right: 22px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 17px;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+
+    .title h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    .title p {
+        font-size: 17px;
+        line-height: 27px;
+        width: auto;
+    }
+
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 60%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link::after {
+display: none;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 0px;
+	margin-bottom: 70px;
+}
+
+#banner-part .details {
+	text-align: center;
+}
+
+#banner-part .details h1 {
+	font-size: 35px;
+	line-height: 45px;
+	width: auto;
+}
+
+#banner-part .details p {
+	width: auto;
+}
+
+#banner-part .details .banner-button .button {
+	width: 200px;
+	height: 46px;
+	font-size: 15px;
+	line-height: 46px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 50px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+
+#work-part .row-shape {
+	padding: 0px;
+}
+
+#work-part::after {
+	height: 40px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 70px;
+}
+
+#schedule-part .row-padding {
+	padding: 0px;
+}
+
+#schedule-part .item {
+	margin-top: 30px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 40px;
+}
+
+#schedule-part .item .text h6 {
+	width: auto;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 70px;
+}
+
+#graph-part .row{
+    flex-direction: column-reverse;
+}
+
+#graph-part .graph-index {
+	padding: 0px;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part {
+	padding-bottom: 70px;
+}
+
+#about-part .title h1 {
+	width: auto;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 0px;
+	text-align: center;
+}
+
+#about-part .details-slider .details i {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 18px;
+	line-height: 28px;
+	width: auto;
+	margin-bottom: 22px;
+}
+
+#about-part .details-slider .details h5 {
+	font-size: 23px;
+	line-height: 23px;
+	margin-bottom: 12px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 12px;
+	height: 12px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 70px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -70px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 35px;
+	line-height: 45px;
+	text-align: center;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 17px;
+	width: auto;
+	margin-top: 8px;
+	text-align: center;
+}
+
+#helping-part .helping-box .helping-button{
+    text-align: center;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 210px;
+	height: 47px;
+	font-size: 15px;
+	line-height: 47px;
+	margin-top: 12px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	padding: 0px;
+}
+
+#footer-part .main-item .item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 40%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+    padding: 0 30px;
+}
+
+#footer-part .main-item .item-two {
+	margin-left: 0px;
+}
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+.top-button {
+	right: 22px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+
+    .title h1 {
+        font-size: 35px;
+        line-height: 45px;
+        width: auto;
+    }
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 60%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link::after {
+display: none;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 0px;
+	margin-bottom: 90px;
+}
+
+#banner-part .details h1 {
+	font-size: 30px;
+	line-height: 40px;
+	width: auto;
+}
+
+#banner-part .details p {
+	font-size: 16px;
+	line-height: 24px;
+	width: auto;
+	margin-top: 15px;
+}
+
+#banner-part .details .banner-button .button {
+	width: 200px;
+	height: 46px;
+	font-size: 15px;
+	line-height: 46px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 40px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#work-part::after {
+	height: 53px;
+}
+
+#work-part .row-shape {
+	padding: 0px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .res-md{
+    margin: 0 auto;
+}
+
+#work-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 70px;
+}
+
+#schedule-part .row-padding {
+	padding: 0px;
+}
+
+#schedule-part .item {
+	margin-top: 40px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 20px;
+}
+
+#schedule-part .item .text h6 {
+	width: auto;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 70px;
+}
+
+#graph-part .graph-index {
+	padding: 0px;
+}
+
+#graph-part .details {
+	margin-top: 0px;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .graph-img {
+	margin-top: 150px;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part {
+	padding-bottom: 70px;
+}
+
+#about-part .title h1 {
+	width: auto;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 43px;
+}
+
+#about-part .details-slider .details i {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 15px;
+	line-height: 24px;
+	width: auto;
+	margin-bottom: 22px;
+}
+
+#about-part .details-slider .details h5 {
+	font-size: 21px;
+	line-height: 21px;
+	margin-bottom: 12px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 12px;
+	height: 12px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 70px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -70px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 33px;
+	line-height: 45px;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 14px;
+	width: auto;
+	margin-top: 8px;
+    line-height: 24px;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 210px;
+	height: 47px;
+	font-size: 15px;
+	line-height: 47px;
+	margin-top: 12px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	padding-bottom: 40px !important;
+	padding:0px;
+}
+
+#footer-part .main-item .item{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 40%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+    padding: 0 30px;
+}
+
+#footer-part .main-item .item-two {
+	margin-left: 0px;
+}
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+.top-button {
+	right: 30px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 19px;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+    .title h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+/* -------------------------
+       Common css end
+------------------------------*/    
+
+/* -------------------------
+       Nav part start
+------------------------------*/
+
+nav .navbar-brand img{
+    width: 80%;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+	border-color:transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 0;
+}
+
+nav button i{
+    font-size: 21px;
+    color: #222222;
+}
+
+nav .nav-item {
+	text-align: center;
+}
+
+nav .nav-item .nav-link:hover::after {
+	width: 90%;
+}
+
+nav .nav-button{
+    text-align: center;
+}
+
+nav .nav-button .button {
+	width: 125px !important;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/* -------------------------
+       Nav part end
+------------------------------*/
+
+/* -------------------------
+       Banner part start
+------------------------------*/
+#banner-part {
+	margin-top: 0px;
+	margin-bottom: 90px;
+}
+
+#banner-part .details {
+	margin-top: 40px;
+}
+
+#banner-part .details h1 {
+	font-size: 35px;
+	line-height: 45px;
+	width: 360px;
+}
+
+#banner-part .details .banner-button .button {
+	width: 200px;
+	height: 46px;
+	font-size: 15px;
+	line-height: 46px;
+	margin-top: 10px;
+}
+
+#banner-part .banner-img {
+	margin-top: 40px;
+}
+
+#banner-part .banner-img::after {
+    display: none;
+    }
+
+#banner-part .banner-img::before {
+display: none;
+}
+
+.video-play-button::after {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+.video-play-button::before {
+	left: 48%;
+	width: 70px;
+	height: 70px;
+}
+
+/* -------------------------
+       Banner part end
+------------------------------*/
+
+/* -------------------------
+       Work part START
+------------------------------*/
+
+#work-part {
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+
+#work-part::after {
+	height: 65px;
+}
+
+#work-part .row-shape {
+	padding: 0px;
+}
+
+#work-part .item {
+	padding: 45px 16px 60px 15px;
+}
+
+#work-part .res-md{
+    margin: 0 auto;
+}
+
+#work-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Work part end
+------------------------------*/
+
+/* -------------------------
+    Schedule part start
+------------------------------*/
+#schedule-part {
+	padding-bottom: 90px;
+}
+
+#schedule-part .row-padding {
+	padding: 0px;
+}
+
+#schedule-part .item {
+	margin-top: 40px;
+}
+
+#schedule-part .item .number {
+	text-align: right;
+}
+
+#schedule-part .item .text {
+	margin-left: 20px;
+}
+
+#schedule-part .item .text h6 {
+	width: auto;
+}
+
+#schedule-part .item .text p {
+	margin-top: 10px;
+}
+
+/* -------------------------
+    Schedule part end
+------------------------------*/
+
+/* -------------------------
+    Graph part start
+------------------------------*/
+#graph-part {
+	padding-bottom: 90px;
+}
+
+#graph-part .graph-index {
+	padding: 0px;
+}
+
+#graph-part .details {
+	margin-top: 0px;
+}
+
+#graph-part .details .item {
+	padding: 15px 30px 22px 30px;
+	margin-top: 20px;
+}
+
+#graph-part .details .item .text {
+	margin-left: 15px;
+}
+
+#graph-part .details .item .text h5 {
+	line-height: 25px;
+}
+
+#graph-part .details .item .text p {
+	line-height: 22px;
+	width: auto;
+}
+
+#graph-part .graph-img {
+	margin-top: 80px;
+}
+
+#graph-part .shape {
+	display: none;
+}
+
+/* -------------------------
+    Graph part end
+------------------------------*/
+
+/* -------------------------
+       About part start
+------------------------------*/
+
+#about-part {
+	padding-bottom: 90px;
+}
+
+#about-part .img-slider .img img{
+    width: 100%;
+}
+
+#about-part .details-slider {
+	margin-top: 60px;
+}
+
+#about-part .details-slider .details i {
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+#about-part .details-slider .details p {
+	font-size: 19px;
+	line-height: 29px;
+	width: auto;
+	margin-bottom: 22px;
+}
+
+#about-part .details-slider .details h5 {
+	font-size: 23px;
+	line-height: 23px;
+	margin-bottom: 12px;
+}
+
+#about-part .details-slider .details h6 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+#about-part .details-slider .slick-dots li {
+	margin-right: 15px;
+}
+
+#about-part .details-slider .slick-dots li button {
+	width: 12px;
+	height: 12px;
+}
+
+#about-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       About part end
+------------------------------*/
+
+/* -------------------------
+       Helping part start
+------------------------------*/
+#helping-part {
+	padding-bottom: 90px;
+}
+
+#helping-part .helping-box {
+	border-radius: 35px;
+	padding: 35px 35px 35px 35px;
+}
+
+#helping-part .helping-box::after {
+	width: 100%;
+	bottom: -70px;
+	left: 0px;
+}
+
+#helping-part .helping-box .left h2 {
+	font-size: 40px;
+	line-height: 53px;
+}
+
+#helping-part .helping-box .right p {
+	font-size: 16px;
+	width: auto;
+	margin-top: 12px;
+	line-height: 26px;
+}
+
+#helping-part .helping-box .helping-button .button {
+	width: 210px;
+	height: 47px;
+	font-size: 15px;
+	line-height: 47px;
+	margin-top: 12px;
+}
+
+/* -------------------------
+       Helping part end
+------------------------------*/
+
+/* -------------------------
+       Footer part start
+------------------------------*/
+
+#footer-part .main-item {
+	position: relative;
+	padding-bottom: 40px !important;
+	padding: 0;
+}
+
+#footer-part .main-item .item{
+    margin-top: 50px;
+}
+
+#footer-part .main-item .item .logo-img img {
+    width: 65%;
+}
+
+#footer-part .main-item .item p {
+	margin-top: 10px;
+}
+
+
+#footer-part .main-item .item h6 {
+	margin-bottom: 15px;
+}
+
+#footer-part .main-item .item .icon {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item .icon a {
+	width: 30.86px;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+#footer-part .main-item .item .icon i {
+	width: 30.86px;
+	height: 30.86px;
+	line-height: 32.86px;
+}
+
+#footer-part .main-item .item ul {
+	margin-bottom: 0px;
+}
+
+#footer-part .main-item .item ul li {
+	margin-top: 15px;
+}
+
+#footer-part .main-item .item figure {
+	margin-top: 15px;
+}
+
+#footer-part .main-item::after {
+	width: 100%;
+	height: 1px;
+	background: #196781;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+}
+
+#footer-part .shape {
+	display: none;
+}
+
+/* -------------------------
+       Footer part end
+------------------------------*/
+
+
+/* ======================================= */
+}
